@@ -66,4 +66,4 @@ with st.container():
             )
 
         # Run the asynchronous function within the event loop
-        loop.run_until_complete(initiate_chat()
+        loop.run_until_complete(initiate_chat())
