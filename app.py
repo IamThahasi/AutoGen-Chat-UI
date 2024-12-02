@@ -23,7 +23,7 @@ selected_model = None
 selected_key = None
 with st.sidebar:
     st.header("OpenAI Configuration")
-    selected_model = st.selectbox("Model", ['gpt-3.5-turbo', 'gpt-4'], index=1)
+    selected_model = st.selectbox("Model", ['gpt-3.5-turbo', 'gpt-4','llama-3.2-3b-instruct'], index=1)
     selected_key = st.text_input("API Key", type="password")
 
 with st.container():
@@ -42,7 +42,8 @@ with st.container():
             "config_list": [
                 {
                     "model": selected_model,
-                    "api_key": selected_key
+                    "api_key": selected_key,
+                    "base_url": http://localhost:1234/v1"
                 }
             ]
         }
