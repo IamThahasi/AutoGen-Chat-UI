@@ -43,7 +43,7 @@ with st.container():
                 {
                     "model": selected_model,
                     "api_key": selected_key,
-                    "base_url": http://localhost:1234/v1"
+                    "base_url": "http://localhost:1234/v1"
                 }
             ]
         }
