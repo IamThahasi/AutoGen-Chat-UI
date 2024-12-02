@@ -41,8 +41,8 @@ with st.container():
             "request_timeout": 600,
             "config_list": [
                 {
-                    "model": selected_model,
-                    "api_key": selected_key,
+                    "model": llama-3.2-3b-instruct,
+                    "api_key": "NULL",
                     "base_url": "http://localhost:1234/v1"
                 }
             ]
